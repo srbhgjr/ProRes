@@ -1,35 +1,37 @@
 import React from "react";
 import "./input.css";
 
-export function BlendedInput(props) {
+export function LightInput(props) {
   const {
     placeholder,
     defaultValue,
-    type
+    type,
+    inputType
   } = props;
 
   const handleInputChange = (e) => {
-    console.log('input', e.target.value);
+    props.onChange({
+      type: inputType,
+      value: e.target.value
+    })
   }
 
-  const handleKeyDown = () => {
-    const handleKeyDown = (e) => {
-      switch (e.keyCode || e.which) {
-        case 13:
-          e.preventDefault();
-  
-          // to be added...
-      }
+  const handleKeyDown = (e) => {
+    switch (e.keyCode || e.which) {
+      case 13:
+        e.preventDefault();
+
+      // to be added...
     }
   }
 
   return (
     <div>
       <input
-        className="search-field-blended"
+        className="search-field-light"
         placeholder={placeholder}
-        defaultValue={defaultValue}
         type={type === "password" ? "password" : "text"}
+        defaultValue={defaultValue}
         onChange={handleInputChange}
         onKeyDown={handleKeyDown}
       />
