@@ -7,11 +7,5 @@
 }
 
 .login-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20%;
-  padding: 2rem;
-  border-radius: 10px;
-  height: fit-content;
+  
 }
