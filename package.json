@@ -1,0 +1,32 @@
+{
+  "name": "prores",
+  "version": "1.0.0",
+  "description": "professional resume maker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node --max-old-space-size=8192 ./bin/www"
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.12.0",
+    "axios": "^1.2.2",
+    "body-parser": "^1.20.1",
+    "chalk": "^4.1.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongodb": "^4.13.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "redis": "^4.6.6",
+    "ws": "^8.13.0",
+    "xlsx": "^0.18.5"
+  },
+  "author": "saurabh",
+  "license": "ISC"
+}
