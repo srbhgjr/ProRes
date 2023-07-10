@@ -1,0 +1,30 @@
+.background-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, rgb(255, 166, 0), rgb(31, 196, 196))
+}
+
+.background-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 85vh;
+  border-radius: 20px;
+  background-color: white;
+  position: relative;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  width: 18rem;
+  position: absolute;
+  left: 0;
+  margin-left: -9rem;
+}
