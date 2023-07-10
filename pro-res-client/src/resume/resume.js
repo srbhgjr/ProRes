@@ -1,11 +1,23 @@
 import React from "react";
+import Paper from "@mui/material/Paper"
+import { Stack } from "@mui/material";
+import "./resume.css";
+import { Menu } from "./menu";
 
 export function Resume() {
 
 
   return (
-    <div>
-      resume goes here !!!
+    <div className="background-1">
+      <Paper 
+        elevation={3}
+        className="background-2"
+        sx={{
+          borderRadius: "20px"
+        }}
+      >
+        <Menu />
+      </Paper>
     </div>
   )
 }
