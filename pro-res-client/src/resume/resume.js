@@ -3,7 +3,8 @@ import Paper from "@mui/material/Paper"
 import { Stack } from "@mui/material";
 import "./resume.css";
 import { Menu } from "./menu";
-
+import { Preview } from "./preview";
+ 
 export function Resume() {
 
 
@@ -17,6 +18,7 @@ export function Resume() {
         }}
       >
         <Menu />
+        <Preview />
       </Paper>
     </div>
   )

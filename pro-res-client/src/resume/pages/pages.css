@@ -1,0 +1,18 @@
+.menu-page {
+  display: flex;
+  width: 100%;
+  font-size: 1.15rem;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 1.15rem;
+  height: fit-content;
+}
+
+.tabs {
+  text-transform: none;
+}

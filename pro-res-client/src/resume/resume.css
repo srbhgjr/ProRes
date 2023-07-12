@@ -20,11 +20,47 @@
 
 .menu {
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: 70%;
-  width: 18rem;
+  width: 16rem;
   position: absolute;
   left: 0;
-  margin-left: -9rem;
+  margin-left: -8rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.preview {
+  border: 1px solid black;
+  width: 60%;
+  height: 85%;
+  overflow-y: scroll;
+}
+
+/* total width */
+.preview::-webkit-scrollbar {
+  background-color: transparent;
+  width: 8px;
+  height: 8px;
+  border-radius: 20px;
+}
+  
+/* background of the scrollbar except button or resizer */
+.preview::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 20px;
+  cursor: pointer;
+}
+  
+/* scrollbar itself */
+.preview::-webkit-scrollbar-thumb {
+  background-color: rgba(61,162,131, 0.35);
+  border-radius: 16px;
+  min-height: 2.5rem;
+  /* border: 1px solid #fff; */
+  cursor: pointer;
+}
+  
+/* set button(top and bottom of the scrollbar) */
+.preview::-webkit-scrollbar-button {
+  display:none;
 }
