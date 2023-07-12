@@ -4,20 +4,15 @@ import { Stack } from "@mui/material";
 import { loginActions } from "../store/store";
 import { useSelector, useDispatch } from "react-redux";
 import "./resume.css";
-import { Default } from "./pages/default";
 
-export function Menu(props) {
+export function Preview(props) {
 
 
   return (
-    <Paper
-      className="menu"
-      elevation={3}
-      sx={{
-        borderRadius: "30px"
-      }}
+    <div
+      className="preview"
     >
-      <Default />
-    </Paper>
+      
+    </div>
   )
 }
