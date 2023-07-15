@@ -5,11 +5,18 @@ export function BlendedInput(props) {
   const {
     placeholder,
     defaultValue,
-    type
+    type,
+    inputType,
+    classVariant,
+    styles,
+    value
   } = props;
 
   const handleInputChange = (e) => {
-    console.log('input', e.target.value);
+    props.onChange({
+      type: inputType,
+      value: e.target.value
+    })
   }
 
   const handleKeyDown = () => {
@@ -26,7 +33,9 @@ export function BlendedInput(props) {
   return (
     <div>
       <input
-        className="search-field-blended"
+        className={classVariant}
+        style={{...styles}}
+        value={value}
         placeholder={placeholder}
         defaultValue={defaultValue}
         type={type === "password" ? "password" : "text"}

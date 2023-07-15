@@ -30,10 +30,17 @@
 }
 
 .preview {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 60%;
   height: 85%;
   overflow-y: scroll;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 /* total width */
