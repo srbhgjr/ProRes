@@ -1,8 +1,24 @@
-/* blended input styles */
-.search-field-blended {
+:root {
+  --size-90: 0.9rem;
+  --size-100: 1rem;
+  --size-200: 1.2rem;
+  --size-300: 1.3rem;
+  --size-400: 1.4rem;
+  --size-500: 1.5rem;
+  
+  --padding-90: 0.35rem;
+  --padding-100: 0.45rem;
+  --padding-200: 0.55rem;
+  --padding-300: 0.65rem;
+  --padding-400: 0.75rem;
+  --padding-500: 0.85rem;
+}
+
+/* blended input style variants */
+.search-field-blended-90 {
   border: 0;
-  font-size: 1.5rem;
-  width: 15rem !important;
+  font-size: var(--size-90);
+  /* width: 15rem !important; */
   outline: none;
   overflow: hidden;
   resize: none;
@@ -12,20 +28,79 @@
   caret-color: rgb(147,162,176);
   border-radius: 10px;
   font-weight: 900;
-  padding: 0.75rem;
+  padding: var(--padding-90);
   box-sizing: border-box;
   transition: background-color 0.3s ease-in-out;
 }
 
-.search-field-blended:hover {
+.search-field-blended-90:hover {
   background-color: #ecf3ff;
 }
 
-.search-field-blended::placeholder {
+.search-field-blended-90::placeholder {
   color: rgb(147,162,176);
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: var(--size-90);
 }
+
+
+.search-field-blended-100 {
+  border: 0;
+  font-size: var(--size-100);
+  /* width: 15rem !important; */
+  outline: none;
+  overflow: hidden;
+  resize: none;
+  color: rgba(0, 0, 0, 0.675);
+  background-color: white;
+  font-family: "Josefin Sans";
+  caret-color: rgb(147,162,176);
+  border-radius: 10px;
+  font-weight: 900;
+  padding: var(--padding-100);
+  box-sizing: border-box;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.search-field-blended-100:hover {
+  background-color: #ecf3ff;
+}
+
+.search-field-blended-100::placeholder {
+  color: rgb(147,162,176);
+  font-weight: 900;
+  font-size: var(--size-100);
+}
+
+
+.search-field-blended-300 {
+  border: 0;
+  font-size: var(--size-300);
+  /* width: 15rem !important; */
+  outline: none;
+  overflow: hidden;
+  resize: none;
+  color: rgba(0, 0, 0, 0.675);
+  background-color: white;
+  font-family: "Josefin Sans";
+  caret-color: rgb(147,162,176);
+  border-radius: 10px;
+  font-weight: 900;
+  padding: var(--padding-300);
+  box-sizing: border-box;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.search-field-blended-300:hover {
+  background-color: #ecf3ff;
+}
+
+.search-field-blended-300::placeholder {
+  color: rgb(147,162,176);
+  font-weight: 900;
+  font-size: var(--size-300);
+}
+
 
 /* light input styles */
 .search-field-light {
