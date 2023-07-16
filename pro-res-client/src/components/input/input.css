@@ -33,7 +33,7 @@
   transition: background-color 0.3s ease-in-out;
 }
 
-.search-field-blended-90:hover {
+.search-field-blended-90:focus {
   background-color: #ecf3ff;
 }
 
@@ -62,7 +62,7 @@
   transition: background-color 0.3s ease-in-out;
 }
 
-.search-field-blended-100:hover {
+.search-field-blended-100:focus {
   background-color: #ecf3ff;
 }
 
@@ -91,7 +91,7 @@
   transition: background-color 0.3s ease-in-out;
 }
 
-.search-field-blended-300:hover {
+.search-field-blended-300:focus {
   background-color: #ecf3ff;
 }
 

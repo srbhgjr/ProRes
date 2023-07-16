@@ -29,13 +29,13 @@ export function Preview(props) {
           <div></div>
           <Stack spacing={1} direction="row" sx={{ float: "right" }}>
             <span
-              style={{ color: "gray", fontSize: "2rem", letterSpacing: "0.1rem" }}
+              style={{ color: "gray", fontSize: "2rem", letterSpacing: "0.05rem" }}
             >
               {firstname}
             </span>
             <span
               style={{
-                color: "rgb(141,35,170)", fontSize: "2rem", fontWeight: "bold", letterSpacing: "0.2rem"
+                color: "rgb(141,35,170)", fontSize: "2rem", fontWeight: "bold", letterSpacing: "0.05rem"
               }}
             >
               {lastname}
