@@ -14,36 +14,31 @@ import { Content } from "./content";
 export function Default(props) {
   const [selectedTab, setSelectedTab] = useState(0);
 
-  const handleTabChange = (event, newValue) => {
-    console.log('new value', newValue);
-    setSelectedTab(newValue);
+  const handleTabChange = (type) => {
+    setSelectedTab(type);
   };
 
 
   return (
     <Stack
       direction="column"
-      spacing={1}
+      spacing={0.5}
       className="menu-page"
-    >
-      <div className="menu-header">
-        <span>ProRes</span>
-        <div>
-          <IconButton>
-            <SettingsIcon sx={{ fontSize: "1.15rem" }} />
-          </IconButton>
-        </div>
+    > 
+      <div className="tabs">
+        <span 
+          className={selectedTab === 0 ? "tab-name selected-tab" : "tab-name" }
+          onClick={() => handleTabChange(0)}
+        >
+          Personal
+        </span>
+        <span 
+          className={selectedTab === 1 ? "tab-name selected-tab" : "tab-name" }
+          onClick={() => handleTabChange(1)}
+        >
+          Content
+        </span>
       </div>
-
-      <Tabs 
-        className="tabs"
-        value={selectedTab} 
-        onChange={handleTabChange} 
-        centered
-      >
-        <Tab sx={{ textTransform: "none" }} label="Contact" />
-        <Tab sx={{ textTransform: "none" }} label="Content" />
-      </Tabs>
 
       {selectedTab === 0 &&
       <Contact />}

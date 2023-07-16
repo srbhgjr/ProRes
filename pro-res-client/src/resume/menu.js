@@ -14,7 +14,7 @@ export function Menu(props) {
       className="menu"
       elevation={3}
       sx={{
-        borderRadius: "30px"
+        borderRadius: "10px"
       }}
     >
       <Default />

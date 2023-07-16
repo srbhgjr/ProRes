@@ -1,5 +1,6 @@
 .menu-page {
   display: flex;
+  align-items: center;
   width: 100%;
   font-size: 1.15rem;
 }
@@ -10,11 +11,30 @@
   align-items: center;
   width: 100%;
   font-size: 1.15rem;
-  height: fit-content;
+  /* height: fit-content; */
 }
 
 .tabs {
-  text-transform: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  color: rgba(80, 80, 80, 0.675);
+  background-color: #ecf3ff;
+  border-radius: 10px;
+  padding: 0.65rem;
+  font-size: 0.9rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.tab-name {
+  cursor: pointer;
+}
+
+.selected-tab {
+  color: rgba(80, 80, 80, 0.875);
+  font-weight: bold;
 }
 
 .contact {
