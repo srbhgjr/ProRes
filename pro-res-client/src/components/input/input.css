@@ -24,7 +24,7 @@
   resize: none;
   color: rgba(0, 0, 0, 0.675);
   background-color: white;
-  font-family: "Josefin Sans";
+  font-family: "ChalkboardSE-Regular";
   caret-color: rgb(147,162,176);
   border-radius: 10px;
   font-weight: 900;
@@ -53,7 +53,7 @@
   resize: none;
   color: rgba(0, 0, 0, 0.675);
   background-color: white;
-  font-family: "Josefin Sans";
+  font-family: "ChalkboardSE-Regular";
   caret-color: rgb(147,162,176);
   border-radius: 10px;
   font-weight: 900;
@@ -82,7 +82,7 @@
   resize: none;
   color: rgba(0, 0, 0, 0.675);
   background-color: white;
-  font-family: "Josefin Sans";
+  font-family: "ChalkboardSE-Regular";
   caret-color: rgb(147,162,176);
   border-radius: 10px;
   font-weight: 900;
@@ -112,7 +112,7 @@
   resize: none;
   color: rgba(0, 0, 0, 0.675);
   background-color: #ecf3ff;
-  font-family: "Josefin Sans";
+  font-family: "ChalkboardSE-Regular";
   caret-color: rgb(147,162,176);
   border-radius: 10px;
   font-weight: 900;
@@ -128,4 +128,34 @@
 .search-field-light::placeholder {
   color: rgb(147,162,176);
   font-weight: 900;
+}
+
+
+
+.search-field-dark {
+  border: 0;
+  font-size: var(--size-100);
+  /* width: 15rem !important; */
+  outline: none;
+  overflow: hidden;
+  resize: none;
+  color: rgba(245, 245, 245, 0.875);
+  background-color: rgba(245, 245, 245, 0.2);
+  font-family: "ChalkboardSE-Regular";
+  caret-color: rgb(194, 194, 194);
+  border-radius: 10px;
+  font-weight: 900;
+  padding: var(--padding-100);
+  box-sizing: border-box;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.search-field-dark:focus {
+  background-color: rgba(245, 245, 245, 0.2);
+}
+
+.search-field-dark::placeholder {
+  color: rgb(147,162,176);
+  font-weight: 900;
+  font-size: var(--size-100);
 }

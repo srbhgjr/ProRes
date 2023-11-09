@@ -14,8 +14,7 @@ export const ColouredButton = styled(Button)(({ theme }) => ({
 	"&": {
 		color: "rgb(255, 0, 76)",
     border: "1px solid rgba(255, 0, 76, 0.875)",
-    fontFamily: "Josefin Sans",
-    paddingBottom: "0.1rem",
+    fontFamily: "ChalkboardSE-Regular",
 		fontWeight: "900",
     borderRadius: "10px",
 	}

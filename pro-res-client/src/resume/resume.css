@@ -4,7 +4,7 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to right, rgb(255, 166, 0), rgb(31, 196, 196))
+  background: linear-gradient(165deg, rgb(81, 175, 169) 30%, rgb(59, 64, 114) 80%);
 }
 
 .background-2 {
@@ -20,13 +20,14 @@
 
 .menu {
   display: flex;
-  height: 70%;
+  height: 90%;
   width: 16rem;
   position: absolute;
   left: 0;
-  margin-left: -8rem;
+  margin-left: -3rem;
   padding: 0.5rem 1rem;
   box-sizing: border-box;
+  background: linear-gradient(165deg, rgb(81, 175, 169) 30%, rgb(59, 64, 114) 80%);
 }
 
 .preview {

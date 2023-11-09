@@ -20,8 +20,8 @@
   align-items: center;
   width: 100%;
   flex-direction: row;
-  color: rgba(80, 80, 80, 0.675);
-  background-color: #ecf3ff;
+  color: rgba(245, 245, 245, 0.875);
+  /* background-color: #ecf3ff; */
   border-radius: 10px;
   padding: 0.65rem;
   font-size: 0.9rem;
@@ -33,7 +33,7 @@
 }
 
 .selected-tab {
-  color: rgba(80, 80, 80, 0.875);
+  color: rgba(245, 245, 245, 0.975);
   font-weight: bold;
 }
 

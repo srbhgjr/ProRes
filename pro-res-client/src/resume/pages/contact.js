@@ -37,7 +37,7 @@ export function Contact(props) {
         spacing={1}
       >
         <BlendedInput
-          classVariant="search-field-blended-100"
+          classVariant="search-field-dark"
           styles={{
             width: "7.25rem",
           }}
@@ -48,7 +48,7 @@ export function Contact(props) {
           onChange={handleInputChange}
         />
         <BlendedInput
-          classVariant="search-field-blended-100"
+          classVariant="search-field-dark"
           styles={{
             width: "7.25rem",
           }}
@@ -60,7 +60,7 @@ export function Contact(props) {
         />
       </Stack>
       <BlendedInput
-        classVariant="search-field-blended-100"
+        classVariant="search-field-dark"
         styles={{
           width: "15rem",
         }}
@@ -71,7 +71,7 @@ export function Contact(props) {
         onChange={handleInputChange}
       />
       <BlendedInput
-        classVariant="search-field-blended-100"
+        classVariant="search-field-dark"
         styles={{
           width: "15rem",
         }}

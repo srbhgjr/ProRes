@@ -12,7 +12,7 @@ export function Menu(props) {
   return (
     <Paper
       className="menu"
-      elevation={3}
+      elevation={8}
       sx={{
         borderRadius: "10px"
       }}

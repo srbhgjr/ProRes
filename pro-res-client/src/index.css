@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One');
 
+@font-face {
+  font-family: "ChalkboardSE-Regular";
+  src: local("ChalkboardSE-Regular"),
+   url("./fonts/ChalkboardSE-Regular.ttf") format("truetype");
+  font-weight: 100;
+}
+
 body {
   margin: 0;
-  font-family: 'Josefin Sans', 'Fjalla One', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'ChalkboardSE-Regular', 'Fjalla One', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
